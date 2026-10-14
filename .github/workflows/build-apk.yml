@@ -3,6 +3,7 @@ name: Compile and Build Simple Android App
 on:
   push:
     branches: [ "main" ]
+  workflow_dispatch: # Enables manual triggering via GitHub website or CLI
 
 jobs:
   build:
