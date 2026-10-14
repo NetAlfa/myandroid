@@ -1,0 +1,17 @@
+my-android-app/
+├── .github/
+│   └── workflows/
+│       └── build-app.yml
+├── app/
+│   ├── build.gradle
+│   └── src/
+│       └── main/
+│           ├── AndroidManifest.xml
+│           └── java/
+│               └── com/
+│                   └── example/
+│                           └── MainActivity.java
+├── build.gradle
+├── settings.gradle
+└── gradlew
+
